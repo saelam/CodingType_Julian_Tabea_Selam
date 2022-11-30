@@ -1,0 +1,66 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SDG</title>
+  </head>
+  <style>
+    body {
+      background-color: black;
+      color: aliceblue;
+      /* margin-left: 20%; */
+    }
+    /* #rect {
+      height: 118px;
+      width: 50px;
+    } */
+    img {
+      object-fit: cover;
+    }
+    #rect {
+      height: 118px;
+      background-image: url("bg2.png");
+      background-repeat: no-repeat;
+
+      background-size: cover;
+      background-position: left;
+      /* background-position-x: center; */
+    }
+    #line {
+      display: flex;
+      width: 50%;
+      margin-left: 20%;
+      justify-content: space-between;
+      /* justify-content: space-evenly; */
+
+      align-items: center;
+      /* gap: 10px; */
+    }
+  </style>
+  <body>
+    <div id="line">
+      <h3>Schweiz</h3>
+      <div id="rect" style="width: 20px"></div>
+    </div>
+    <div id="line">
+      <h3>USA</h3>
+      <div id="rect" style="width: 100"></div>
+    </div>
+    <div id="line">
+      <h3>Deutschland</h3>
+      <div id="rect" style="width: 70px"></div>
+    </div>
+    <div id="line">
+      <h3>México</h3>
+      <div id="rect" style="width: 80px"></div>
+    </div>
+    <div id="line">
+      <h3>Venezuela</h3>
+      <div style="display: flex">
+        <div id="rect" style="width: 160px"></div>
+        <div id="rect" style="width: 50px"></div>
+      </div>
+    </div>
+  </body>
+</html>
